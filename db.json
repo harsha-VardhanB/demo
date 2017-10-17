@@ -1,14 +1,93 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "harsha", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+	"airports" : {
+		"airport_id" : 1953,
+		"type" : "Civil",
+		"icao" : "KJFK",
+		"iata" : "JFK",
+		"faa" : "JFK",
+		"airport_name" : "John F Kennedy International",
+		"city" : "New York",
+		"subdivision" : "New York",
+		"country" : "USA",
+		"iso_country_name" : "UNITED STATES",
+		"distance_from_city" : "13 MILES SE OF CITY",
+		"website" : "www.kennedyairport.com",
+		"email" : null,
+		"aftn" : null,
+		"sita" : "JFKPACR",
+		"latitude" : "N40-38.4",
+		"longitude" : "W073-46.7",
+		"elevation" : 13,
+		"magnetic_variation" : "14W",
+		"time_zone" : "-5.00",
+		"daylight_savings" : 1,
+		"fuel" : "AVGAS JET",
+		"airport_of_entry" : "Yes",
+		"airport_of_entry_remark" : "Airline AOE. GA: Landing Rights Airport.",
+		"customs" : 1,
+		"designated_international" : 0,
+		"landing_rights" : 1,
+		"user_fees" : 0,
+		"handling_mandatory" : 0,
+		"slots_required" : 0,
+		"airport_24hours" : "Y",
+		"airport_hours" : "H24",
+		"tower_hours" : "H24",
+		"fire_category" : "E",
+		"fire_category_remarks" : "Nil",
+		"communications" : [
+			{
+				"type" : "ATIS",
+				"frequency" : "115.4",
+				"remark" : "D-ATIS, H24"
+			},
+			{
+				"type" : "Clearance",
+				"frequency" : "135.05",
+				"remark" : null
+			},
+			{
+				"type" : "Ground Control",
+				"frequency" : "121.9",
+				"remark" : "and 121.65; Gate Hold, 125.05"
+			},
+			{
+				"type" : "Tower 1",
+				"frequency" : "123.9",
+				"remark" : "Rwys 04R/22L & 13L/31R"
+			},
+			{
+				"type" : "Tower 2",
+				"frequency" : "119.1",
+				"remark" : "Rwys 04L/22R & 13R/31L"
+			},
+			{
+				"type" : "UNICOM",
+				"frequency" : "122.95",
+				"remark" : null
+			}
+		],
+		"max_lda" : 11248,
+		"approach" : "ILS LOC GPS",
+		"runway_id" : "13R/31L",
+		"length" : 14511,
+		"width" : 200,
+		"lighting" : "HIGH",
+		"pcn" : "098RBWT",
+		"surface" : "Concrete/Grooved",
+		"airport_remarks" : "Pre Departure Clnc available. CBP Approved to operate air services to/from Cuba. Weight limit all rwys: TDTWL 823. Rwy 04L/22R, 11,351 x 150 ft, asph/conc, grvd, PCN 090FBWT; 04R/22L, 8,400 x 200 ft, asph, grvd, PCN 090FBWT; 13L/31R, 10,000 x 150 ft, asph, grvd. PCN 090FBWT.",
+		"airport_operator" : "Port Authority of New York and New Jersey",
+		"airport_contact_name" : "Michael Moran",
+		"airport_contact_title" : "General Manager",
+		"airport_contact_addr1" : "JFK International Airport",
+		"airport_contact_addr2" : "Building 14",
+		"airport_contact_city" : "Jamaica",
+		"airport_contact_state" : "NY",
+		"airport_contact_zip" : "11430",
+		"airport_contact_country" : "USA",
+		"airport_contact_tel" : "+1 718 244 3501",
+		"airport_contact_email" : null,
+		"airport_contact_web" : "www.panynj.gov",
+		"Last_Edited" : "19/4/2017"
+	}
 }
